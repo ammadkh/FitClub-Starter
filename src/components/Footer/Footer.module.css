@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+}
+
+.container > hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem ;
+}
+
+.socialLinks {
+    display: flex;
+     gap: 4rem
+} 
+
+.socialLinks > img {
+    width: 2rem;
+    height: 2rem;
+    cursor:  pointer;
+}
+
+.logo > img {
+    width: 10rem;
+}
+
+.b1 {
+    width: 26rem;
+    height: 12rem;
+    bottom: 0; 
+    right: 15%;
+    filter: blur(200px);
+    background: red;
+}
+
+.b2 { 
+    width: 26rem;
+    height: 12rem;
+    bottom: 0; 
+    left: 15%;
+    filter: blur(200px);
+    background: rgb(255,115, 0);
+}
